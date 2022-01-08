@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,300&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-shadow:none;
+    
+}
+.topleft{
+    margin: 10px;
+    padding:20px;
+    max-width: 30%;
+}
+.topleft h2{
+    color: #616162;
+}
+.topleft h4{
+    color: gray;
+}
+
+.container{
+    display: flex;
+}
+.topright{
+    margin-left: 621px;
+    padding: 56px;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+
+}
+.topright a{
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+    
+}
+.education{
+    margin: 10px;
+    padding: 20px;
+}
+.education span{
+    font-weight: 500;
+    
+}
+.education h2{
+    color: #616162;
+}
+.edu{
+    margin-top: 10px;
+}
+.edu span{
+    color: gray;
+    font-style: italic;
+}
+.edu h3{
+    font-weight: bolder;
+    
+}
+.edu h4{
+    font-weight:550;
+}
+.education hr{
+    max-width: 40%;
+}
+.date{
+    margin-left: 30px;
+}
+.midsection{
+    display: flex;
+}
+.skills{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left:  621px;
+    padding: 56px;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+.skills span{
+    margin-top: 5px;
+    color: white;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: darkgray;
+    max-width: 100px;
+}
+.whole{
+    margin-top: 54px;
+    margin-right: 35px;
+}
+.skills hr{
+    max-width: 50px;
+}
+.skills h3{
+    color: #616162;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.projects{
+    
+    margin: 10px;
+    padding: 20px;
+    margin-top: 0;
+}
+.projects span{
+    margin-top:5px;
+}
+.projects hr{
+    max-width: 20%;
+}
+.projects h2{
+    color: #616162;
+}
+.projects a{
+    text-decoration: none;
+    color: #5d5d79;
+}
+
+.mynotes{
+    margin-top: 10px;
+    max-width: 50%;
+}
+.mynotes span{
+    color: #605c5c;
+    font-style: italic;
+}
+.certificates{
+    justify-content: flex-start;
+    padding: 10px;
+    margin-right: 197px;
+}
+.certificates h2{
+    color: #616162;
+}
+.certificates h4{
+    margin-top: 10px;
+}
+.certificates hr{
+    max-width: 60%;
+}
+.certificates span{
+    font-style: italic;
+    color: gray;
+}
+.language{
+    margin-top: 40px;
+}
+.response hr{
+    max-width: 35%;
+}
+.port{
+    border:40px solid #5d5d79;
+}
